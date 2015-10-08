@@ -1,0 +1,6 @@
+**/Package Control.cache/
+**/SublimeLinter/
+
+*.sublime-settings
+*.last-run
+*.sublime-keymap

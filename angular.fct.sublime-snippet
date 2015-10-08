@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+angular.module('$2').factory('$1',$1);
+
+$1.\$inject = ['$3'];
+
+function $1($3){
+	return {
+		$4
+	}
+		
+	/*---------------------------------------*/
+	$5
+}
+]]></content>
+	<tabTrigger>fct</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

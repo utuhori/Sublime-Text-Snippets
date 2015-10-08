@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+angular.module('$2').controller('$1',$1);
+
+$1.\$inject = ['$3'];
+
+function $1($3){
+	var vm = this;
+	
+	$4
+	
+	init();
+	
+	/*---------------------------------------*/
+	function init(){}
+}
+]]></content>
+	<tabTrigger>ctrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
