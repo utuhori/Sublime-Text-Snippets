@@ -13,6 +13,9 @@ function $1($3){
 	
 	/*---------------------------------------*/
 	function init(){}
+	
+	/*---------------- Private methods -----------------------*/
+	
 }
 ]]></content>
 	<tabTrigger>ctrl</tabTrigger>
