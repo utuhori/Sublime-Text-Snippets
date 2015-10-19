@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ng-options="item.${1:id} as item.${2:name} for item in vm.${3:items}"
+ng-options="item.${1:id} as item.${2:label} for item in vm.${3:items}"$4
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngo</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ng-class="{'$1':$2}"
+ng-class="{'$1':$2}"$3
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngcs</tabTrigger>

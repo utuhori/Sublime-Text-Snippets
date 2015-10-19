@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ng-keypress="(\$event.which === 13) ? vm.$1() : return"
+ng-keypress="(\$event.which === 13) ? vm.$1() : return"$2
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngk</tabTrigger>
