@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ng-repeat="$1 in vm.$2"$3
+ng-repeat="$1 in vm.$2 track by ${3:\$index}"$4
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngr</tabTrigger>
