@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+angular.module('$2').directive('$1',$1Drct);
+
+$1Drct.\$inject = ['$3'];
+
+function $1Drct($3){
+	return {
+		restrict : '${4:E}', 
+		templateUrl : '$5', 
+		scope : {
+			$6
+		}, 
+		controller : '$7',
+		controllerAs : 'vm', 
+		bindToController: true,
+		link     : function(scope, elm, attr, ctrl) {}
+	};
+	
+}
+]]></content>
+	<tabTrigger>drct</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
