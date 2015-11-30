@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ng-show="${1:vm.}"$2
+ng-show="vm.$1"$2
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngs</tabTrigger>
